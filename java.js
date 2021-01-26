@@ -1,9 +1,9 @@
-var lista=[];
-var idxEditare = -1;
+let lista=[];
+let idxEditare = -1;
 
 function draw(){
-  var str="";
-  for(var i=0;i<lista.length;i++){
+  let str="";
+  for(let i=0;i<lista.length;i++){
     str+=`
      <tr class="table-row">
      <td id="listItems" class="${lista[i].mark?"strike":""}">${lista[i].itemInput}</td>         
@@ -27,7 +27,7 @@ function adauga(form, event){
 if(document.querySelector(".add-item").value === ''){
   document.querySelector(".add-item").placeholder = "Adauga aliment..";
 }else{
-  var obj = {
+  let obj = {
     };
 
     obj.itemInput = document.querySelector(".add-item").value; 
@@ -78,10 +78,10 @@ function sortDesc(){
 /*function createTHead(text, event) {
  event.preventDefault();
  
- var table = document.querySelector('.lista-cuparaturi');
- var row = table.insertRow(0);
- var cell1 = row.insertCell(0);
- var cell2 = row.insertCell(1);
+ let table = document.querySelector('.lista-cuparaturi');
+ let row = table.insertRow(0);
+ let cell1 = row.insertCell(0);
+ let cell2 = row.insertCell(1);
  cell1.innerHTML = "<b>Item Description</b>";
  cell2.innerHTML = "<b>Action</b>";
  draw();
