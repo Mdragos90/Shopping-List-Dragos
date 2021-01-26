@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Shopping List</title>
+
+
+
+</head>
+<body>
+  <form id="formular">
+
+    <h1>SHOPPING LIST</h1>
+  
+    <input type="text" class="add-item">
+  
+    <button class="btn" onclick="adauga(this,event);">Add item</button>
+
+    <input type="button" class="btn-sort" value="Sort Asc" onclick="sortAsc();" >
+
+    <input  type="button" class="btn-sort" value="Sort Desc" onclick="sortDesc();">
+
+    <table id="lista-cuparaturi" class="hidden">
+      <thead>
+        <tr>
+          <td>Item description</td>
+          <td>Action</td>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+  </form>
+  
+  <script src="java.js">
+  
+  </script>
+</body>
+</html>

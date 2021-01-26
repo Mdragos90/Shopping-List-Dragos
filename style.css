@@ -1,0 +1,54 @@
+body {
+  background-color: #dddddd;
+}
+.hidden {
+  display: none;
+}
+.btn {
+  border-radius: 7px;
+  padding: 5px;
+  margin: 5px;
+  background-color: #f05454;
+}
+.btn-sort {
+  background-color: #30475e;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 5px;
+  color: aliceblue;
+}
+#formular {
+  text-align: center;
+  background-color: #f8f1f1;
+  width: 800px;
+  position: relative;
+  left: 20%;
+  border-radius: 5px;
+}
+#lista-cuparaturi {
+  position: relative;
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px;
+}
+
+h1 {
+  padding: 20px 20px 10px 20px;
+}
+
+td,
+th {
+  padding: 20px;
+}
+thead {
+  font-weight: 600;
+}
+.mark {
+  background-color: tomato;
+}
+.strike {
+  text-decoration: line-through;
+}
